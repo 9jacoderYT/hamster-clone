@@ -45,7 +45,7 @@ function App() {
 
   const [levelIndex, setLevelIndex] = useState(0);
   const [points, setPoints] = useState(0);
-  const [clicks, setClicks] = useState<[id: number, x: number, y: number][]>(
+  const [clicks, setClicks] = useState<{id: number, x: number, y: number}[]>(
     []
   );
   const pointsToAdd = 11;
